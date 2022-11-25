@@ -1,0 +1,14 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "workbox-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "injectManifest": "npx workbox-cli injectManifest ./workbox-config.js",
+    "copyLibraries": "npx workbox-cli copyLibraries ./third_party/workbox"
+  },
+  "keywords": [],
+  "author": "Jun Guo",
+  "license": "ISC"
+}
