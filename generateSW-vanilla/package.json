@@ -1,0 +1,13 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "workbox-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generateSW": "npx workbox-cli generateSW ./workbox-config.js"
+  },
+  "keywords": [],
+  "author": "Jun Guo",
+  "license": "ISC"
+}
