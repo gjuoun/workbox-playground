@@ -5,7 +5,7 @@
   "main": "workbox-config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generateSW": "npx workbox-cli generateSW ./workbox-config.js"
+    "generateSW": "node ./sw-generate.js"
   },
   "keywords": [],
   "author": "Jun Guo",
