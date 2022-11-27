@@ -1,0 +1,19 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "workbox-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:sw": "tsc",
+    "build:injectManifest": "node ./sw-generate.js"
+  },
+  "keywords": [],
+  "author": "Jun Guo",
+  "license": "ISC",
+  "dependencies": {
+    "workbox-build": "^6.5.4",
+    "workbox-precaching": "^6.5.4"
+  }
+}
